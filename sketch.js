@@ -24,7 +24,7 @@ function preload(){
 
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(700, 700);
   
   //creating background
   background = createSprite(0,0,600,600);
@@ -162,7 +162,7 @@ function pinkBalloon() {
   pink.addImage(pink_balloonImage);
   pink.velocityX = 3;
   pink.lifetime = 150;
-  pink.scale = 1
+  pink.scale = 1.1
  
   pinkB.add(pink);
 }
